@@ -1,0 +1,21 @@
+.buttonContainer {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.button {
+  cursor: pointer;
+  width: 80px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  border-color: transparent;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #cfecd0;
+  transform: scale(1.1);
+  transition: all 250ms;
+  color: white;
+}
